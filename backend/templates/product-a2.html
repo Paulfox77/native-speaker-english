@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+<div class="product-detail">
+
+    <h2>{{ product.name }}</h2>
+    <p class="price">€{{ product.price }}</p>
+
+    <p>
+        Improve your everyday English with structured exercises,
+        practical vocabulary, and full answer keys.
+    </p>
+
+    <button class="btn" disabled>Buy Now (Coming Soon)</button>
+
+</div>
+{% endblock %}

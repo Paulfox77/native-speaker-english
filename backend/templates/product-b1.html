@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A2 English Practice Pack</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1>{{ product.name }}</h1>
+  <p>Intermediate level – speak more clearly and confidently</p>
+</header>
+
+<main class="product-detail">
+
+  <section class="product-section">
+
+    <div class="product-header">
+      <span class="level-badge">B1 Level</span>
+      <h2>{{ product.name }}</h2>
+      <p class="subtitle">
+        Improve your fluency and accuracy with practical exercises designed
+for real-life conversations and everyday situations.</p>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-info">
+        <h3>What’s inside</h3>
+        <ul>
+          <li>✓ Vocabulary expansion for real conversations</li>
+          <li>✓ Grammar review with practical usage</li>
+          <li>✓ Reading texts with comprehension tasks</li>
+          <li>✓ Speaking prompts and writing exercises</li>
+          <li>✓ Full answer key included</li>
+        </ul>
+
+        <p class="download-note">
+          📥 Instant digital download (PDF)
+        </p>
+      </div>
+
+      <div class="product-buy">
+       <p class="price">€{{ product.price }}</p>
+        <button class="buy-button" disabled>
+          Buy Now (Coming Soon)
+        </button>
+        <p class="secure-note">
+          Secure checkout • No spam • Instant access
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Native Speaker English</p>
+</footer>
+
+</body>
+</html>
